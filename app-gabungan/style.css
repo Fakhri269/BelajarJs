@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0; /* Optional: Change the background color of the page */
+}
+
+.container1 {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    width: 300px; /* Set a fixed width for the box */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+}
+
+.options1, .option2, .option3 {
+    margin: 10px 0;
+}
